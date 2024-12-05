@@ -1,0 +1,36 @@
+Java 8 Features:
+1. Lambda expression
+2. Stream API
+3. Date and time API
+4. Base 64 encode and decode
+5. Method Reference and constructor reference
+6. Default method in interface
+7. Static method in interface
+8. Functional Interface
+9. Optional Class
+
+-----------------------------------------------------------------------------
+1. Lambda Expression:
+
+Rules:
+> Remove modifier (eg. Public)
+> Remove return type (eg. int)
+> Remove function name (eg. addTwoNumber)
+> Remove parameter type (eg. int a, int b to  a,b)
+> Place arrow in between
+> Remove return keyword
+> Remove {} when single statement implementation (Keep for multiline implementation)
+> Remove () when single parameter passed (keep for multiple params)
+
+Example:
+--------
+//Simple Function
+public void printHelloToSomeone(String input){
+    return "Hello" + input;
+}
+
+//Lambda Function
+//Remove public, void, printHelloToSomeone, (), String, return and {}
+
+input -> "Hello" + input;
+
