@@ -26,11 +26,11 @@ Example:
 --------
 //Simple Function
 public void printHelloToSomeone(String input){
-    return "Hello" + input;
+    return "_01MainFunctionalInterface" + input;
 }
 
 //Lambda Function
 //Remove public, void, printHelloToSomeone, (), String, return and {}
 
-input -> "Hello" + input;
+input -> "_01MainFunctionalInterface" + input;
 

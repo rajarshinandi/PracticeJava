@@ -1,15 +1,15 @@
 import java.util.Arrays;
 
-public class Hello {
+public class _01MainFunctionalInterface {
     public static void main(String[] args) {
 
 //      Here we are Creating the reference of the Functional Interface and Implementing the method right away
-        SampleFunctionalInterface fi = (name) -> "Hello " + name;
-        SampleFunctionalInterface fi2 = name -> "Good Morning " + name;
-        SampleFunctionalInterface findWordCount = (name) -> "Your name has " + name.length() + " letters!";
+        _01SampleFunctionalInterface fi = (name) -> "Hello " + name;
+        _01SampleFunctionalInterface fi2 = name -> "Good Morning " + name;
+        _01SampleFunctionalInterface findWordCount = (name) -> "Your name has " + name.length() + " letters!";
 
 //       Lambda with function body
-        SampleFunctionalInterface reverseName = name -> {
+        _01SampleFunctionalInterface reverseName = name -> {
             char[] charArray = name.toCharArray();
             Arrays.sort(charArray);
             return Arrays.toString(charArray);

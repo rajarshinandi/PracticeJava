@@ -1,0 +1,7 @@
+1. When java program run, by default main thread starts running
+2. Extend Thread Class or Implement Runnable interface
+When a class already extending other class then we can not use the Thread class as Java does not allow multiple inheritence hence
+we need to implement Runnable interface. But when the class is not extending any other class then the multithreading can be
+implemented via either extending Thread class or Implementing Runnable interface.
+
+3. start() initiates new thread
